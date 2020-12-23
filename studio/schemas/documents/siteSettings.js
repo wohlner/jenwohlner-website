@@ -15,6 +15,11 @@ export default {
       title: 'Title'
     },
     {
+      name: 'body',
+      title: 'Body',
+      type: 'projectPortableText'
+    },
+    {
       name: 'description',
       type: 'text',
       title: 'Description',

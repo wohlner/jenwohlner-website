@@ -8,6 +8,7 @@ import styles from './project-preview.module.css'
 import {responsiveTitle3} from './typography.module.css'
 
 function ProjectPreview (props) {
+  const moment= require('moment')
   return (
     <Link className={styles.root} to={`/project/${props.slug.current}`}>
       <div className={styles.leadMediaThumb}>
@@ -15,13 +16,13 @@ function ProjectPreview (props) {
           <img
             src={imageUrlFor(buildImageObj(props.mainImage))
               .width(600)
-              .height(Math.floor((9 / 16) * 600))
+              .height(Math.floor((3 /4) * 600))
               .url()}
             alt={props.mainImage.alt}
           />
         )}
       </div>
-      <h3 className={cn(responsiveTitle3, styles.title)}>{props.title}</h3>
+      <h3 className={cn(responsiveTitle3, styles.title)}>{props.title}, {moment(props.publishedAt).format('YYYY')}</h3>
       {props._rawExcerpt && (
         <div className={styles.excerpt}>
           <BlockText blocks={props._rawExcerpt} />

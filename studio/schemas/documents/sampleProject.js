@@ -2,7 +2,7 @@ import {format} from 'date-fns'
 
 export default {
   name: 'sampleProject',
-  title: 'Sample project',
+  title: 'Project',
   type: 'document',
   fields: [
     {
@@ -23,7 +23,7 @@ export default {
     {
       name: 'publishedAt',
       title: 'Published at',
-      description: 'You can use this field to schedule projects where you show them',
+      description: 'Use this field to schedule projects where you show them. The year appears in the front end.',
       type: 'datetime'
     },
     {
