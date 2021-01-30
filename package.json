@@ -14,6 +14,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "lerna": "^3.13.1"
+    "html-webpack-plugin": "^5.0.0-alpha.17",
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "gatsby-plugin-emoji-favicon": "^1.5.0",
+    "gatsby-plugin-favicon": "^3.1.6",
+    "moment": "^2.29.1"
   }
 }

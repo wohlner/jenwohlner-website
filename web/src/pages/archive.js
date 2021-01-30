@@ -12,12 +12,13 @@ import {responsiveTitle1} from '../components/typography.module.css'
 export const query = graphql`
   query ArchivePageQuery {
     projects: allSanitySampleProject(
-      limit: 12
+      limit: 200
       sort: {fields: [publishedAt], order: DESC}
       filter: {slug: {current: {ne: null}}, publishedAt: {ne: null}}
     ) {
       edges {
         node {
+          publishedAt
           id
           mainImage {
             asset {
@@ -51,8 +52,13 @@ const ArchivePage = props => {
     <Layout>
       <SEO title='Archive' />
       <Container>
-        <h1 className={responsiveTitle1}>Projects</h1>
-        {projectNodes && projectNodes.length > 0 && <ProjectPreviewGrid nodes={projectNodes} />}
+        <h1 hidden className={responsiveTitle1}>Projects</h1>
+        {projectNodes && projectNodes.length > 0 && 
+          <ProjectPreviewGrid 
+            nodes={projectNodes} 
+            title='All projects'
+          />
+        }
       </Container>
     </Layout>
   )

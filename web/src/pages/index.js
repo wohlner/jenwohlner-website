@@ -10,6 +10,7 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import ProjectPreviewGrid from '../components/project-preview-grid'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
+import BlockContent from '../components/block-content'
 
 export const query = graphql`
   query IndexPageQuery {
@@ -17,32 +18,18 @@ export const query = graphql`
       title
       description
       keywords
+      _rawBody
     }
     projects: allSanitySampleProject(
-      limit: 6
+      limit: 200
       sort: {fields: [publishedAt], order: DESC}
       filter: {slug: {current: {ne: null}}, publishedAt: {ne: null}}
     ) {
       edges {
         node {
           id
+          publishedAt
           mainImage {
-            crop {
-              _key
-              _type
-              top
-              bottom
-              left
-              right
-            }
-            hotspot {
-              _key
-              _type
-              x
-              y
-              height
-              width
-            }
             asset {
               _id
             }
@@ -88,11 +75,12 @@ const IndexPage = props => {
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
         <h1 hidden>Welcome to {site.title}</h1>
+        {site._rawBody && <BlockContent blocks={site._rawBody || []} />}
         {projectNodes && (
           <ProjectPreviewGrid
-            title='Latest projects'
+            title='All projects'
             nodes={projectNodes}
-            browseMoreHref='/archive/'
+            //browseMoreHref='/archive/'
           />
         )}
       </Container>

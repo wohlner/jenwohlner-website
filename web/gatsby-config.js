@@ -17,8 +17,8 @@ module.exports = {
       options: {
         ...clientConfig.sanity,
         token,
-        watchMode: !isProd,
-        overlayDrafts: !isProd && token
+        watchMode: true,
+        overlayDrafts: true && token
       }
     }
   ]
