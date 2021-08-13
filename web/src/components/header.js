@@ -19,11 +19,17 @@ const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
       <nav className={cn(styles.nav, showNav && styles.showNav)}>
         <ul>
         <li>
-            <Link to='/'>All Projects</Link>
-          </li>
-          <li>
-          <a href="https://jenwohlner.square.site/" target="_blank">Store &#8599;</a>
-          </li>
+          <Link to='/'>All Projects</Link>
+        </li>
+        <li>
+          <Link to='/drawing'>Drawing</Link>
+        </li>
+        <li>
+          <Link to='/sculpture'>Sculpture</Link>
+        </li>
+        <li>
+          <Link to='/internet'>Internet</Link>
+        </li>
         </ul>
       </nav>
     </div>
