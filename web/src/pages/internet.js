@@ -10,11 +10,11 @@ import {mapEdgesToNodes, filterOutDocsWithoutSlugs} from '../lib/helpers'
 import {responsiveTitle1} from '../components/typography.module.css'
 
 export const query = graphql`
-  query ArchivePageQuery {
+  query InternetPageQuery {
     projects: allSanitySampleProject(
       limit: 200
       sort: {fields: [publishedAt], order: DESC}
-      filter: {slug: {current: {ne: null}}, publishedAt: {ne: null}}
+      filter: {slug: {current: {ne: null}}, publishedAt: {ne: null}, categories: {elemMatch: {title: {in: "internet"}}}}
     ) {
       edges {
         node {
@@ -27,6 +27,11 @@ export const query = graphql`
             alt
           }
           title
+          _rawCategories
+            categories {
+                _id
+                title
+              }
           _rawExcerpt
           slug {
             current
@@ -37,7 +42,7 @@ export const query = graphql`
   }
 `
 
-const ArchivePage = props => {
+const InternetPage = props => {
   const {data, errors} = props
   if (errors) {
     return (
@@ -47,16 +52,17 @@ const ArchivePage = props => {
     )
   }
   const projectNodes =
-    data && data.projects && mapEdgesToNodes(data.projects).filter(filterOutDocsWithoutSlugs)
+    data && data.projects  && mapEdgesToNodes(data.projects).filter(filterOutDocsWithoutSlugs)
   return (
     <Layout>
-      <SEO title='Archive' />
+      <SEO title='Internet projects' />
       <Container>
         <h1 hidden className={responsiveTitle1}>Projects</h1>
+        <h1>Jen's Internet projects</h1>
         {projectNodes && projectNodes.length > 0 && 
           <ProjectPreviewGrid 
             nodes={projectNodes} 
-            title='All projects'
+            // title='Internet projects'
           />
         }
       </Container>
@@ -64,4 +70,4 @@ const ArchivePage = props => {
   )
 }
 
-export default ArchivePage
+export default InternetPage

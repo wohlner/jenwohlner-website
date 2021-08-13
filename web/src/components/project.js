@@ -8,6 +8,7 @@ import Container from './container'
 import RoleList from './role-list'
 
 import styles from './project.module.css'
+import CategoryPage from '../templates/category'
 
 function Project (props) {
   const {_rawBody, title, categories, members, publishedAt, relatedProjects} = props
@@ -34,7 +35,7 @@ function Project (props) {
                 <h3 className={styles.categoriesHeadline}>Categories</h3>
                 <ul>
                   {categories.map(category => (
-                    <li key={category._id}>{category.title}</li>
+                    <li key={category._id}><Link to={`/${category.title}`}>{category.title}</Link></li>
                   ))}
                 </ul>
               </div>
