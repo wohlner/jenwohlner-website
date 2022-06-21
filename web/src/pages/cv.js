@@ -53,7 +53,7 @@ const CVPage = () => (
     Point Foundation Scholar, national in the USA</p>
     <h4>Education</h4>
     <p>2024<br />
-    MFA candidate (in progress), School of the Art Institute of Chicago, Chicago, IL</p>
+    MFA (in progress), School of the Art Institute of Chicago, Chicago, IL</p>
     <p>2010<br />
     BFA fine arts, University of Southern California, Los Angeles, CA</p>
 
