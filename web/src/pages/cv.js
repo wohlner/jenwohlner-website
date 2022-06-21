@@ -15,7 +15,7 @@ const CVPage = () => (
     <em>FACE CONTROL</em>, Helen Lindhurst Fine Arts Gallery, Los Angeles, CA</p>
     <h4>Group Exhibitions</h4>
     <p>2021<br />
-    <em>5th Bi-annual Exhibition</em>, Angad Arts Hotel, Saint Louis, MO</p>
+    <em>5th Bi-annual Exhibition</em>, Angad Arts Hotel, Saint Louis, MO </p>
     <p>2012<br />
     <em>Native Thinghood</em>, The Cube, Los Angeles, CA</p>
     <p>2011<br />
@@ -52,6 +52,8 @@ const CVPage = () => (
     University of Southern California Trustee Scholarship, full-tuition award, Los Angeles, CA<br />
     Point Foundation Scholar, national in the USA</p>
     <h4>Education</h4>
+    <p>2024<br />
+    MFA candidate (in progress), School of the Art Institute of Chicago, Chicago, IL</p>
     <p>2010<br />
     BFA fine arts, University of Southern California, Los Angeles, CA</p>
 
