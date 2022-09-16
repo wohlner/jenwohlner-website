@@ -10,7 +10,8 @@ const CVPage = () => (
     <h1>Artist CV</h1>
     <h4>Solo Exhibitions</h4>
     <p>2022<br />
-    <em>Upcoming solo exhibition</em>, 4704 Virginia, Saint Louis, MO</p>
+    <em>Upcoming untitled exhibition</em>, Saint Kate Vitrine, Milwaukee, WI<br />
+    <em>SANCTUM</em>, WILDFRUIT PROJECTS, Saint Louis, MO</p>
     <p>2010<br />
     <em>FACE CONTROL</em>, Helen Lindhurst Fine Arts Gallery, Los Angeles, CA</p>
     <h4>Group Exhibitions</h4>
