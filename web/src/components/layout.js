@@ -13,7 +13,7 @@ const Layout = ({children, onHideNav, onShowNav, showNav, siteTitle}) => (
         <div className={styles.siteInfo}>
           © {new Date().getFullYear()}, Built with <a href='https://www.sanity.io'>Sanity</a> &#43;
           {` `}
-          <a href='https://www.gatsbyjs.org'>Gatsby</a> by me, Jen Wohlner. <a href="https://jenwohlner.square.site/" target="_blank"><u>Visit my store &#8599;</u></a>
+          <a href='https://www.gatsbyjs.org'>Gatsby</a> by me, Jen Wohlner.
         </div>
       </div>
     </footer>
