@@ -16,7 +16,7 @@ const CVPage = () => (
     <em>FACE CONTROL</em>, Helen Lindhurst Fine Arts Gallery, Los Angeles, CA</p>
     <h4>Group Exhibitions</h4>
     <p>2023<br />
-    <em>upcoming</em>, Houska Gallery, Saint Louis, MO </p>
+    Yet to be titled spring show, Houska Gallery, Saint Louis, MO </p>
     <p>2022<br />
     <em>Winter Group Show</em>, Houska Gallery, Saint Louis, MO </p>
     <p>2021<br />
