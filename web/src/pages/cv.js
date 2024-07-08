@@ -50,7 +50,7 @@ const CVPage = () => (
 
     <h4>Select Software Projects</h4>
     <p>2023<br />
-    <em>GOD and me</em></em>, <a href="http://godandme.jenwohlner.com/">godandme.jenwohlner.com</a></p>
+    <em>GOD and me</em>, <a href="http://godandme.jenwohlner.com/">godandme.jenwohlner.com</a></p>
     <p>2019-2021<br />
     First head of product, <em><a href="https://livepeer.studio/">Livepeer</a></em>. Liveper is an open source blockchain project to build the world's open video infrastructure by democratizing video transcoding. </p>
     <p>2018-2019<br />
