@@ -28,8 +28,8 @@
   grid-template-columns: 1fr;
   grid-column-gap: 2em;
 
-  @media (--media-min-medium) {
-    grid-template-columns: 3fr 1fr;
+  @media (--media-min-large) {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -50,7 +50,7 @@
 
 .publishedAt {
   composes: small from './typography.module.css';
-  margin: 1.5rem 0 3rem;
+  margin: 1.5rem 0 1.5rem;
   color: var(--color-gray);
 }
 
