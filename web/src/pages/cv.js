@@ -56,9 +56,6 @@ const CVPage = () => (
     <p>2010<br />
     Creator, <em>echoedlandmarks.com</em>. Echoed Landmarks was an internet art piece exploring one LA driving route but is no longer online.<br />
     Creator, <em>SHIRTS are CLOTHES</em>. Shirts Are Clothes was an internet art piece with many white t-shirts transformed into other white clothing but is no longer online.</p>
-    <h4>Curatorial Projects</h4>
-    <p>2009<br />
-    <em>Project White Box</em>, University of Southern California University Park Campus, Los Angeles, CA</p>
     <h4>Awards</h4>
     <p>2010<br />
     Webfest 1st Prize, Los Angeles, CA</p>
