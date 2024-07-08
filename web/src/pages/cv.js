@@ -8,13 +8,21 @@ const CVPage = () => (
     <Container>
     <SEO title='Artist CV' />
     <h1>Artist CV</h1>
+
     <h4>Solo Exhibitions</h4>
+    <p>2025<br />
+    Forthcoming solo show, Wildfruit Projects, Saint Louis, MO</p>
     <p>2022<br />
     <em>Locating Private Spaces</em>, Saint Kate Vitrine, Milwaukee, WI<br />
     <em>SANCTUM</em>, WILDFRUIT PROJECTS, Saint Louis, MO</p>
     <p>2010<br />
     <em>FACE CONTROL</em>, Helen Lindhurst Fine Arts Gallery, Los Angeles, CA</p>
+
     <h4>Group Exhibitions</h4>
+    <p>2024<br />
+    <em>MFA EXHIBITION</em>, School of the Art Institute of Chicago, Chicago, IL<br />
+    <em>The UnBirthday Party</em>, Craft Alliance, Saint Louis, MO<br />
+    <em>Dirty Abstraction</em>, Union Hall, Denver CO </p>
     <p>2023<br />
     <em>To Pillar, To Platform</em>, The Luminary, Saint Louis, MO<br />
     <em>Lot 49</em>, The Luminary, Saint Louis, MO<br />
@@ -39,6 +47,7 @@ const CVPage = () => (
     <em>enVISIONing the Future</em>, Helen Lindhurst Fine Arts Gallery, Los Angeles, CA</p>
     <p>2008<br />
     <em>STOP DOWN!</em>, USC Graduate Fine Arts Building, Los Angeles, CA</p>
+
     <h4>Select Software Projects</h4>
     <p>2019-2021<br />
     First head of product, <em>Livepeer</em>. Liveper is an open source blockchain project to build the world's open video infrastructure by democratizing video transcoding. </p>
@@ -60,9 +69,9 @@ const CVPage = () => (
     Point Foundation Scholar, national in the USA</p>
     <h4>Education</h4>
     <p>2024<br />
-    MFA (in progress), School of the Art Institute of Chicago, Chicago, IL</p>
+    MFA, School of the Art Institute of Chicago, Chicago, IL</p>
     <p>2010<br />
-    BFA fine arts, University of Southern California, Los Angeles, CA</p>
+    BFA, University of Southern California, Los Angeles, CA</p>
 
     </Container>
   </Layout>
