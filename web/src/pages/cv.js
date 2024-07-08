@@ -49,16 +49,17 @@ const CVPage = () => (
     <em>STOP DOWN!</em>, USC Graduate Fine Arts Building, Los Angeles, CA</p>
 
     <h4>Select Software Projects</h4>
+    <p>2023<br />
+    <em>GOD and me</em>, <a href="http://godandme.jenwohlner.com/">godandme.jenwohlner.com</a></p>
     <p>2019-2021<br />
-    First head of product, <em>Livepeer</em>. Liveper is an open source blockchain project to build the world's open video infrastructure by democratizing video transcoding. </p>
+    First head of product, <em><a href="https://livepeer.studio/">Livepeer</a></em>. Liveper is an open source blockchain project to build the world's open video infrastructure by democratizing video transcoding. </p>
     <p>2018-2019<br />
-    Co-founder, <em>Lex</em>. ​​Lex (formerly @_personals_) is a lo-fi, text-based social iOS and Android app for the queer community.</p>
+    Co-founder, <em><a href="https://www.lex.lgbt/">Lex</a></em>. ​​Lex (formerly @_personals_) is a lo-fi, text-based social iOS and Android app for the queer community.</p>
     <p>2010<br />
     Creator, <em>echoedlandmarks.com</em>. Echoed Landmarks was an internet art piece exploring one LA driving route but is no longer online.<br />
     Creator, <em>SHIRTS are CLOTHES</em>. Shirts Are Clothes was an internet art piece with many white t-shirts transformed into other white clothing but is no longer online.</p>
+    
     <h4>Awards</h4>
-    <p>2010<br />
-    Webfest 1st Prize, Los Angeles, CA</p>
     <p>2009-2010<br />
     USC Roski School of Fine Arts Neely-Macomber Travel Prize, Los Angeles, CA</p>
     <p>2006-2010<br />
