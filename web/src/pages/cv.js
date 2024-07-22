@@ -24,6 +24,7 @@ const CVPage = () => (
     <em>The UnBirthday Party</em>, Craft Alliance, Saint Louis, MO<br />
     <em>Dirty Abstraction</em>, Union Hall, Denver CO </p>
     <p>2023<br />
+    <em>The Call is Coming from Inside the Houska</em>, Houska Gallery, Saint Louis, MO<br />
     <em>To Pillar, To Platform</em>, The Luminary, Saint Louis, MO<br />
     <em>Lot 49</em>, The Luminary, Saint Louis, MO<br />
     <em>Feed Your Head</em>, Houska Gallery, Saint Louis, MO </p>
