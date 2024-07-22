@@ -16,7 +16,7 @@ function Project (props) {
       <Container>
         <div className={styles.grid}>
           <div className={styles.mainContent}>
-            <h1 className={styles.title}><em>{title}</em></h1>
+            <h1 className={styles.title}>{title}</h1>
              {publishedAt && (
               <div className={styles.publishedAt}>
                 {differenceInDays(new Date(publishedAt), new Date()) > 3
