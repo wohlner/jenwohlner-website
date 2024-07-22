@@ -5,6 +5,7 @@
 
 .title {
   composes: responsiveTitle1 from './typography.module.css';
+  font-style: italic;
 }
 
 .mainImage {
