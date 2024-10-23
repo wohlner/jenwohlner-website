@@ -11,6 +11,8 @@ const CVPage = () => (
 
     <h4>Solo Exhibitions</h4>
     <p>2025<br />
+    Forthcoming solo show, City Hall Gallery, O'Fallon, MO</p>
+    <p>2025<br />
     Forthcoming solo show, Wildfruit Projects, Saint Louis, MO</p>
     <p>2022<br />
     <em>Locating Private Spaces</em>, Saint Kate Vitrine, Milwaukee, WI<br />
@@ -19,11 +21,17 @@ const CVPage = () => (
     <em>FACE CONTROL</em>, Helen Lindhurst Fine Arts Gallery, Los Angeles, CA</p>
 
     <h4>Group Exhibitions</h4>
+    <p>2025<br />
+    <em>Telephone: a collaborative project</em>, STL.org building, Saint Louis, MO<br />
+    Forthcoming group show, Evil Twins Gallery, Milwaukee, WI</p>
     <p>2024<br />
+    Forthcoming group show, Fifteen Windows Gallery, Saint Louis, MO<br />
+    <em>Compulsion</em>, ATHICA: Athens Institute for Contemporary Art, Athens, GA<br />
     <em>MFA EXHIBITION</em>, School of the Art Institute of Chicago, Chicago, IL<br />
     <em>The UnBirthday Party</em>, Craft Alliance, Saint Louis, MO<br />
     <em>Dirty Abstraction</em>, Union Hall, Denver CO </p>
     <p>2023<br />
+    <em>The Call is Coming from Inside the Houska</em>, Houska Gallery, Saint Louis, MO<br />
     <em>To Pillar, To Platform</em>, The Luminary, Saint Louis, MO<br />
     <em>Lot 49</em>, The Luminary, Saint Louis, MO<br />
     <em>Feed Your Head</em>, Houska Gallery, Saint Louis, MO </p>
@@ -60,11 +68,14 @@ const CVPage = () => (
     Creator, <em>SHIRTS are CLOTHES</em>. Shirts Are Clothes was an internet art piece with many white t-shirts transformed into other white clothing but is no longer online.</p>
     
     <h4>Awards</h4>
+    <p>2024<br />
+    Donald Keyes Founder's Award, ATHICA: Athens Institute for Contemporary Art, Athens, G</p>
     <p>2009-2010<br />
     USC Roski School of Fine Arts Neely-Macomber Travel Prize, Los Angeles, CA</p>
     <p>2006-2010<br />
     University of Southern California Trustee Scholarship, full-tuition award, Los Angeles, CA<br />
     Point Foundation Scholar, national in the USA</p>
+    
     <h4>Education</h4>
     <p>2024<br />
     MFA, School of the Art Institute of Chicago, Chicago, IL</p>
