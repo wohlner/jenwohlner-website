@@ -10,7 +10,7 @@ const CVPage = () => (
     <h1>Artist CV</h1>
 
     <h4>Solo Exhibitions</h4>
-    <p>2025<br />
+    <p>2026<br />
     Forthcoming solo show, City Hall Gallery, O'Fallon, MO</p>
     <p>2025<br />
     Forthcoming solo show, Wildfruit Projects, Saint Louis, MO</p>
@@ -69,7 +69,7 @@ const CVPage = () => (
     
     <h4>Awards</h4>
     <p>2024<br />
-    Donald Keyes Founder's Award, ATHICA: Athens Institute for Contemporary Art, Athens, G</p>
+    Donald Keyes Founder's Award, ATHICA: Athens Institute for Contemporary Art, Athens, GA</p>
     <p>2009-2010<br />
     USC Roski School of Fine Arts Neely-Macomber Travel Prize, Los Angeles, CA</p>
     <p>2006-2010<br />
