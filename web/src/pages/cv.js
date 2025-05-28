@@ -11,9 +11,10 @@ const CVPage = () => (
 
     <h4>Solo Exhibitions</h4>
     <p>2026<br />
+    Forthcoming solo show, The Sheldon, Saint Louis, MO<br />
     Forthcoming solo show, City Hall Gallery, O'Fallon, MO</p>
     <p>2025<br />
-    Forthcoming solo show, Wildfruit Projects, Saint Louis, MO</p>
+    <em>Iron Mountain</em>, Wildfruit Projects, Saint Louis, MO</p>
     <p>2022<br />
     <em>Locating Private Spaces</em>, Saint Kate Vitrine, Milwaukee, WI<br />
     <em>SANCTUM</em>, WILDFRUIT PROJECTS, Saint Louis, MO</p>
@@ -23,9 +24,9 @@ const CVPage = () => (
     <h4>Group Exhibitions</h4>
     <p>2025<br />
     <em>Telephone: a collaborative project</em>, STL.org building, Saint Louis, MO<br />
-    Forthcoming group show, Evil Twins Gallery, Milwaukee, WI</p>
+    <em>From A to B</em>, Evil Twins Gallery, Milwaukee, WI</p>
     <p>2024<br />
-    Forthcoming group show, Fifteen Windows Gallery, Saint Louis, MO<br />
+    <em>Ho-Ho-Homies and Newbies</em>, Fifteen Windows Gallery, Saint Louis, MO<br />
     <em>Compulsion</em>, ATHICA: Athens Institute for Contemporary Art, Athens, GA<br />
     <em>MFA EXHIBITION</em>, School of the Art Institute of Chicago, Chicago, IL<br />
     <em>The UnBirthday Party</em>, Craft Alliance, Saint Louis, MO<br />
