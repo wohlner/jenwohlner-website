@@ -77,7 +77,7 @@ const IndexPage = props => {
         {site._rawBody && <BlockContent blocks={site._rawBody || []} />}
         {projectNodes && (
           <ProjectPreviewGrid
-            title='All projects'
+            //title='All projects'
             nodes={projectNodes}
             //browseMoreHref='/archive/'
           />
